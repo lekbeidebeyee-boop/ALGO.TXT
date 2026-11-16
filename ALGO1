@@ -1,0 +1,10 @@
+Algorithme Calcul_TTC
+    HT, TVA, TTC: Reel
+
+    Ecrire("Saisir HT")
+    Lire(HT)
+    Ecrire("Saisir TVA")
+    Lire(TVA)
+    TTC <- HT * (1 + TVA / 100)
+    Ecrire("Le TTC est : ", TTC)
+Fin Algorithme
